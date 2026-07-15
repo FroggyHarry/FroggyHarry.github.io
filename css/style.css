@@ -44,6 +44,31 @@ body {
     margin-bottom: 5px;
 }
 
+.booking-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    padding: 10px 18px;
+    background: #fff;
+    color: #c00;
+    border: 2px solid #c00;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.booking-btn:hover {
+    background: #c00;
+    color: #fff;
+    text-decoration: none;
+}
+
+.booking-icon {
+    font-size: 1.1rem;
+}
+
 .links {
     margin-top: 20px;
 }
