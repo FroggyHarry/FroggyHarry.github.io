@@ -176,3 +176,37 @@ hr {
         margin: 0 auto 20px;
     }
 }
+
+/* 底部个性签名 */
+.signature {
+    max-width: 1000px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.signature::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #FFB81C;
+    margin: 0 auto 24px;
+}
+
+.signature-zh {
+    font-family: 'Xingkai SC', 'STXingkai', '华文行楷', 'Kaiti SC', 'STKaiti', 'KaiTi', '楷体', serif;
+    font-size: 1.6rem;
+    color: #444;
+    letter-spacing: 0.12em;
+    margin: 0 0 8px;
+}
+
+.signature-zh:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .signature-zh {
+        font-size: 1.3rem;
+    }
+}
