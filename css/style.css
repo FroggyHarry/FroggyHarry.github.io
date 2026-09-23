@@ -186,10 +186,9 @@ hr {
     margin-bottom: 6px;
 }
 
-/* 底部个性签名 */
+/* 中文个性签名(位于中文段落下方) */
 .signature {
-    max-width: 1000px;
-    margin: 30px auto 0;
+    margin: 36px 0 0;
     text-align: center;
 }
 
