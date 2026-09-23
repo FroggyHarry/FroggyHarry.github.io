@@ -177,27 +177,12 @@ hr {
     }
 }
 
-/* 主页面 Teaching 栏 */
-.teaching {
-    max-width: 1000px;
-    margin: 50px auto 0;
-    text-align: center;
-}
-
-.teaching h2 {
-    font-size: 1.2rem;
+/* 左栏 TA 标题 */
+.ta-heading {
+    margin-top: 22px;
+    font-size: 1rem;
     font-weight: 600;
     color: #2D6CC0;
-    margin-bottom: 12px;
-}
-
-.teaching-list {
-    list-style: none;
-    font-size: 0.95rem;
-    color: #333;
-}
-
-.teaching-list li {
     margin-bottom: 6px;
 }
 
